@@ -1,5 +1,6 @@
-# hamr_pipeline
+# HAMR Pipeline
 
+##STEP 1
 HISAT2 mapping- 
 a) hisat2_2.1.1.sif -p 8 -x tair_index/tair --sra-acc SRR3581731 -S SRR3581731.sam
 * HISAT2 was run using different mismatch criterias.
