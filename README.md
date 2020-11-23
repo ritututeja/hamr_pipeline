@@ -2,9 +2,9 @@
 
 ## STEP 1
 **To run the singularity containers, you have to build your own containers images or pull them from a container registry** <br/>
-Singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
+singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
 **TopHat2 Mapping- Single-end reads**<br/>
-hisat2_2.1.1.sif -p 8 -x tair_index/tair --sra-acc SRR3581731 -S SRR3581731.sam<br/><br/>
+singularity run --cleanenv tophat2_2.1.1.sif tophat2 -p 8 -G gff_file --read-mismatches 3 --read-edit-dist 3 --max-multihits 1 --b2-very-sensitive --transcriptome-max-hits 1 --no-coverage-search --no-novel-juncs -o outputfile genome_index_base reads.fastq<br/><br/>
 **TopHat2 Mapping- Paired-end reads**<br/>
 
 
