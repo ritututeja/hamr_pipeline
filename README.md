@@ -3,8 +3,10 @@
 ## STEP 1
 **To run the singularity containers, you have to build your own containers images or pull them from a container registry** <br/>
 Singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
-**tophat2 mapping**<br/>
-a) hisat2_2.1.1.sif -p 8 -x tair_index/tair --sra-acc SRR3581731 -S SRR3581731.sam
+**TopHat2 Mapping- Single-end reads**<br/>
+hisat2_2.1.1.sif -p 8 -x tair_index/tair --sra-acc SRR3581731 -S SRR3581731.sam<br/>
+**TopHat2 Mapping- Paired-end reads**<br/>
+
 
 ## STEP 2
 **Get unique mapping reads**<br/>
