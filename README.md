@@ -1,8 +1,8 @@
 # HAMR HPC Pipeline
 
 ## STEP 1
-**tophat2** <br/>
-Singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/>
+**To run the singularity containers, you must pull them from Quay.io or DockerHub** <br/>
+Singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
 **tophat2 mapping**<br/>
 a) hisat2_2.1.1.sif -p 8 -x tair_index/tair --sra-acc SRR3581731 -S SRR3581731.sam
 
