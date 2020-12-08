@@ -1,5 +1,5 @@
 # HAMR HPC Pipeline
-## ! README needs to be updated-
+## ! README needs to be updated
 ## STEP 1
 **To run the singularity containers, you have to build your own containers images or pull them from a container registry** <br/>
 singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
