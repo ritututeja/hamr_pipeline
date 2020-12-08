@@ -1,5 +1,5 @@
 # HAMR HPC Pipeline
-
+## ! README needs to be updated
 ## STEP 1
 **To run the singularity containers, you have to build your own containers images or pull them from a container registry** <br/>
 singularity pull docker://quay.io/biocontainers/tophat:2.1.1--py27_3 <br/><br/>
@@ -18,10 +18,10 @@ grep -P "^\@|NH:i:1$" SRR3581731.sam | singularity run --cleanenv samtools_1.10.
 ## STEP 3
 **Resolve Spliced Alignments**<br/>
 a) SplitNCigarReads<br/>
-singularity run --cleanenv gatk_4.1.8.1.sif gatk SplitNCigarReads -R TAIR10_allchr.fasta -I SRR3581731.unique.sorted.bam -O SRR3581731.cigar.bam<br/>
+singularity run --cleanenv gatk_4.1.8.1.sif gatk SplitNCigarReads -R TAIR10_allchr.fasta -I SRR3581731.unique.sorted.bam -O SRR3581731.resolvesa.bam<br/>
 -ALLOW_N_CIGAR_READS is no longer available in new GATK version<br/>
 b) Sort<br/>
-singularity run --cleanenv gatk_4.1.8.1.sif gatk SortSam -I  SRR3581731.cigar.bam -O SRR3581731.cigar.sorted.bam -SO coordinate<br/>
+singularity run --cleanenv gatk_4.1.8.1.sif gatk SortSam -I  SRR3581731.resolvesa.bam -O SRR3581731.resolvesa.sorted.bam -SO coordinate<br/>
 
 ## STEP 4
 **Run HAMR**<br/>
