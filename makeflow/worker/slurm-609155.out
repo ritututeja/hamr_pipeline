@@ -1,0 +1,2358 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"singularity"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "singularity"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+2021/02/23 09:47:10: |submitted: 0 |needed: 10 |waiting connection: 0 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-3939
+work_queue_worker: creating workspace /tmp/worker-45159-3942
+work_queue_worker: creating workspace /tmp/worker-45159-3940
+work_queue_worker: creating workspace /tmp/worker-45159-3941
+2021/02/23 09:47:46: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-3989
+work_queue_worker: creating workspace /tmp/worker-45159-3990
+2021/02/23 09:48:21: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 09:48:57: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0        0       0 
+
+2021/02/23 09:49:15.10 work_queue_worker[3939] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:49:15.10 work_queue_worker[3941] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:49:15.20 work_queue_worker[3942] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:49:15.20 work_queue_worker[3940] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:49:33: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0        0       0 
+
+2021/02/23 09:49:50.39 work_queue_worker[3989] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:49:50.44 work_queue_worker[3990] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:50:09: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:50:44: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:51:20: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 09:51:56: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 09:52:23.03 work_queue_worker[3939] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:52:23.08 work_queue_worker[3941] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:52:23.28 work_queue_worker[3940] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:52:23.33 work_queue_worker[3942] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43208
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43210
+2021/02/23 09:52:32: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:52:58.41 work_queue_worker[3989] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:52:58.54 work_queue_worker[3990] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:53:07: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:53:33.95 work_queue_worker[3990] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:53:33.95 work_queue_worker[3989] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:53:34.60 work_queue_worker[3940] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:53:34.64 work_queue_worker[3939] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:53:34.65 work_queue_worker[3941] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:53:34.65 work_queue_worker[3942] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:53:43: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:54:18: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:54:54: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:55:30: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 09:55:44.02 work_queue_worker[3989] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:55:44.02 work_queue_worker[3990] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:55:44.56 work_queue_worker[3939] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 09:55:44.56 work_queue_worker[3941] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:55:44.66 work_queue_worker[3942] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:55:44.66 work_queue_worker[3940] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:56:06: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:56:41: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:57:17: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 09:57:53: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:57:55.58 work_queue_worker[3990] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:57:56.07 work_queue_worker[3989] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:57:56.49 work_queue_worker[3941] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:57:56.58 work_queue_worker[3939] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:57:56.66 work_queue_worker[3942] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:57:56.71 work_queue_worker[3940] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 09:58:28: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:59:04: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 09:59:40: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:02.86 work_queue_worker[3990] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43224
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3990
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:03.36 work_queue_worker[3989] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43222
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3989
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:03.75 work_queue_worker[3941] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:03.75 work_queue_worker[3939] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3941
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3939
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:03.88 work_queue_worker[3942] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43214
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3942
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:00:04.00 work_queue_worker[3940] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:43212
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-3940
+2021/02/23 10:00:15: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:00:46: |submitted: 0 |needed: 10 |waiting connection: 0 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-6909
+work_queue_worker: creating workspace /tmp/worker-45159-6910
+work_queue_worker: creating workspace /tmp/worker-45159-6911
+work_queue_worker: creating workspace /tmp/worker-45159-6908
+2021/02/23 10:00:47.22 work_queue_worker[6911] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:00:47.26 work_queue_worker[6909] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:00:47.26 work_queue_worker[6908] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:00:47.26 work_queue_worker[6910] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:01:22: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-6960
+work_queue_worker: creating workspace /tmp/worker-45159-6961
+2021/02/23 10:01:23.10 work_queue_worker[6961] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:01:23.15 work_queue_worker[6960] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:01:57: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:02:33: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:02:56.82 work_queue_worker[6910] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:02:57.20 work_queue_worker[6909] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:02:57.20 work_queue_worker[6908] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:02:57.34 work_queue_worker[6911] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:03:09: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:03:32.65 work_queue_worker[6960] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:03:33.18 work_queue_worker[6961] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:03:44: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:04:20: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:04:56: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:05:08.74 work_queue_worker[6910] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:05:09.08 work_queue_worker[6909] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:05:09.12 work_queue_worker[6908] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:05:09.25 work_queue_worker[6911] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:05:31: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:05:44.58 work_queue_worker[6960] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:05:45.09 work_queue_worker[6961] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:06:07: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:06:43: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:07:16.01 work_queue_worker[6910] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6910
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:07:16.39 work_queue_worker[6909] notice: stopping: could not connect after 300 seconds.
+2021/02/23 10:07:16.39 work_queue_worker[6908] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6909
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6908
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:07:16.52 work_queue_worker[6911] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6911
+2021/02/23 10:07:19: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:07:51.85 work_queue_worker[6960] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6960
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:07:52.36 work_queue_worker[6961] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-6961
+2021/02/23 10:07:55: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7028
+work_queue_worker: creating workspace /tmp/worker-45159-7031
+work_queue_worker: creating workspace /tmp/worker-45159-7030
+work_queue_worker: creating workspace /tmp/worker-45159-7029
+2021/02/23 10:07:55.93 work_queue_worker[7031] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:07:55.94 work_queue_worker[7029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:07:56.01 work_queue_worker[7030] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:07:56.03 work_queue_worker[7028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:08:30: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7076
+work_queue_worker: creating workspace /tmp/worker-45159-7077
+2021/02/23 10:08:31.57 work_queue_worker[7076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:08:31.58 work_queue_worker[7077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:09:06: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:09:42: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:10:05.83 work_queue_worker[7029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:05.88 work_queue_worker[7031] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:05.99 work_queue_worker[7030] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:06.00 work_queue_worker[7028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:17: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:10:41.63 work_queue_worker[7077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:41.69 work_queue_worker[7076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:10:53: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:11:29: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:12:05: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:12:17.84 work_queue_worker[7029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:12:17.89 work_queue_worker[7031] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:12:17.97 work_queue_worker[7028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:12:18.06 work_queue_worker[7030] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:12:40: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:12:53.73 work_queue_worker[7076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:12:53.73 work_queue_worker[7077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:13:16: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:13:52: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:14:25.06 work_queue_worker[7029] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7029
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:14:25.19 work_queue_worker[7031] notice: stopping: could not connect after 300 seconds.
+2021/02/23 10:14:25.19 work_queue_worker[7028] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7031
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7028
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:14:25.32 work_queue_worker[7030] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7030
+2021/02/23 10:14:27: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:15:01.03 work_queue_worker[7077] notice: stopping: could not connect after 300 seconds.
+2021/02/23 10:15:01.03 work_queue_worker[7076] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7077
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7076
+2021/02/23 10:15:03: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7173
+work_queue_worker: creating workspace /tmp/worker-45159-7172
+work_queue_worker: creating workspace /tmp/worker-45159-7170
+work_queue_worker: creating workspace /tmp/worker-45159-7171
+2021/02/23 10:15:04.34 work_queue_worker[7171] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:15:04.35 work_queue_worker[7172] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:15:04.35 work_queue_worker[7173] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:15:04.35 work_queue_worker[7170] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:15:39: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7219
+work_queue_worker: creating workspace /tmp/worker-45159-7220
+2021/02/23 10:15:40.09 work_queue_worker[7219] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:15:40.18 work_queue_worker[7220] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:16:15: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:16:50: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:17:14.34 work_queue_worker[7170] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:17:14.35 work_queue_worker[7173] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:17:14.40 work_queue_worker[7172] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:17:14.40 work_queue_worker[7171] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:17:26: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:17:49.61 work_queue_worker[7219] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:17:50.13 work_queue_worker[7220] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:18:02: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:18:38: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:19:13: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:19:26.39 work_queue_worker[7173] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+2021/02/23 10:19:26.39 work_queue_worker[7172] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:19:26.44 work_queue_worker[7170] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:19:26.45 work_queue_worker[7171] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:19:49: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:20:01.54 work_queue_worker[7219] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:20:01.66 work_queue_worker[7220] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:20:25: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+2021/02/23 10:21:00: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:21:33.61 work_queue_worker[7172] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:21:33.61 work_queue_worker[7173] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7172
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7173
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:21:33.73 work_queue_worker[7171] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:21:33.73 work_queue_worker[7170] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7171
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7170
+2021/02/23 10:21:36: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:22:08.81 work_queue_worker[7219] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7219
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:22:08.93 work_queue_worker[7220] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7220
+2021/02/23 10:22:12: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       2       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7297
+work_queue_worker: creating workspace /tmp/worker-45159-7294
+work_queue_worker: creating workspace /tmp/worker-45159-7295
+work_queue_worker: creating workspace /tmp/worker-45159-7296
+2021/02/23 10:22:13.21 work_queue_worker[7297] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:22:13.23 work_queue_worker[7296] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:22:13.27 work_queue_worker[7295] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:22:13.28 work_queue_worker[7294] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 10:22:48: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-7342
+work_queue_worker: creating workspace /tmp/worker-45159-7343
+2021/02/23 10:23:23: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:23:59: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 10:24:35: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:25:11: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:25:46: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:26:22: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:26:58: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:27:24.86 work_queue_worker[7297] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7297
+2021/02/23 10:27:24.98 work_queue_worker[7294] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7294
+2021/02/23 10:27:24.98 work_queue_worker[7295] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7295
+2021/02/23 10:27:24.98 work_queue_worker[7296] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7296
+2021/02/23 10:27:34: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:27:54.66 work_queue_worker[7342] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7342
+2021/02/23 10:27:54.71 work_queue_worker[7343] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-7343
+2021/02/23 10:28:09: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8208
+work_queue_worker: creating workspace /tmp/worker-45159-8209
+work_queue_worker: creating workspace /tmp/worker-45159-8210
+work_queue_worker: creating workspace /tmp/worker-45159-8207
+2021/02/23 10:28:45: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8256
+work_queue_worker: creating workspace /tmp/worker-45159-8257
+2021/02/23 10:29:21: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:29:57: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:30:32: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:31:08: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:31:44: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:32:20: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:32:55: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:33:15.17 work_queue_worker[8207] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8207
+2021/02/23 10:33:15.60 work_queue_worker[8210] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8210
+2021/02/23 10:33:15.95 work_queue_worker[8209] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8209
+2021/02/23 10:33:16.03 work_queue_worker[8208] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8208
+2021/02/23 10:33:31: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:33:51.74 work_queue_worker[8256] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8256
+2021/02/23 10:33:51.74 work_queue_worker[8257] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8257
+2021/02/23 10:34:07: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8371
+work_queue_worker: creating workspace /tmp/worker-45159-8372
+work_queue_worker: creating workspace /tmp/worker-45159-8370
+work_queue_worker: creating workspace /tmp/worker-45159-8369
+2021/02/23 10:34:43: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8418
+work_queue_worker: creating workspace /tmp/worker-45159-8417
+2021/02/23 10:35:18: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:35:54: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:36:30: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:37:05: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:37:41: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:38:16: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:38:52: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:39:12.98 work_queue_worker[8369] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8369
+2021/02/23 10:39:12.99 work_queue_worker[8370] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8370
+2021/02/23 10:39:13.42 work_queue_worker[8372] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8372
+2021/02/23 10:39:13.51 work_queue_worker[8371] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8371
+2021/02/23 10:39:28: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:39:49.18 work_queue_worker[8418] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8418
+2021/02/23 10:39:49.54 work_queue_worker[8417] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8417
+2021/02/23 10:40:03: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8494
+work_queue_worker: creating workspace /tmp/worker-45159-8492
+work_queue_worker: creating workspace /tmp/worker-45159-8493
+work_queue_worker: creating workspace /tmp/worker-45159-8491
+2021/02/23 10:40:39: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8541
+work_queue_worker: creating workspace /tmp/worker-45159-8542
+2021/02/23 10:41:15: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:41:51: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:42:26: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:43:02: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:43:38: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:44:13: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:44:49: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:45:09.69 work_queue_worker[8493] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8493
+2021/02/23 10:45:09.94 work_queue_worker[8491] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8491
+2021/02/23 10:45:10.13 work_queue_worker[8492] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8492
+2021/02/23 10:45:10.18 work_queue_worker[8494] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8494
+2021/02/23 10:45:24: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:45:45.05 work_queue_worker[8542] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8542
+2021/02/23 10:45:46.00 work_queue_worker[8541] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8541
+2021/02/23 10:46:00: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8604
+work_queue_worker: creating workspace /tmp/worker-45159-8606
+work_queue_worker: creating workspace /tmp/worker-45159-8603
+work_queue_worker: creating workspace /tmp/worker-45159-8605
+2021/02/23 10:46:36: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8664
+work_queue_worker: creating workspace /tmp/worker-45159-8663
+2021/02/23 10:47:12: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:47:47: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:48:23: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:48:59: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:49:35: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:50:10: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:50:46: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:51:06.52 work_queue_worker[8606] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8606
+2021/02/23 10:51:06.56 work_queue_worker[8603] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8603
+2021/02/23 10:51:07.09 work_queue_worker[8604] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8604
+2021/02/23 10:51:07.10 work_queue_worker[8605] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8605
+2021/02/23 10:51:22: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:51:42.69 work_queue_worker[8664] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8664
+2021/02/23 10:51:42.87 work_queue_worker[8663] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8663
+2021/02/23 10:51:57: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8723
+work_queue_worker: creating workspace /tmp/worker-45159-8726
+work_queue_worker: creating workspace /tmp/worker-45159-8724
+work_queue_worker: creating workspace /tmp/worker-45159-8725
+2021/02/23 10:52:33: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-8772
+work_queue_worker: creating workspace /tmp/worker-45159-8773
+2021/02/23 10:53:09: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:53:45: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:54:20: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:54:56: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:55:31: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:56:07: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:56:43: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:57:03.88 work_queue_worker[8723] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8723
+2021/02/23 10:57:03.94 work_queue_worker[8725] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8725
+2021/02/23 10:57:04.32 work_queue_worker[8726] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8726
+2021/02/23 10:57:04.46 work_queue_worker[8724] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8724
+2021/02/23 10:57:19: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:57:40.21 work_queue_worker[8772] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8772
+2021/02/23 10:57:40.35 work_queue_worker[8773] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-8773
+2021/02/23 10:57:54: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9471
+work_queue_worker: creating workspace /tmp/worker-45159-9468
+work_queue_worker: creating workspace /tmp/worker-45159-9469
+work_queue_worker: creating workspace /tmp/worker-45159-9470
+2021/02/23 10:58:30: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9516
+work_queue_worker: creating workspace /tmp/worker-45159-9517
+2021/02/23 10:59:06: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 10:59:42: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:00:17: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:00:53: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:01:29: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:02:04: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:02:40: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:03:00.59 work_queue_worker[9470] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9470
+2021/02/23 11:03:00.84 work_queue_worker[9468] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9468
+2021/02/23 11:03:01.05 work_queue_worker[9471] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9471
+2021/02/23 11:03:01.54 work_queue_worker[9469] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9469
+2021/02/23 11:03:16: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:03:37.20 work_queue_worker[9516] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9516
+2021/02/23 11:03:37.27 work_queue_worker[9517] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9517
+2021/02/23 11:03:52: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9753
+work_queue_worker: creating workspace /tmp/worker-45159-9752
+work_queue_worker: creating workspace /tmp/worker-45159-9750
+work_queue_worker: creating workspace /tmp/worker-45159-9751
+2021/02/23 11:04:28: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9799
+work_queue_worker: creating workspace /tmp/worker-45159-9800
+2021/02/23 11:05:03: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:05:39: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:06:15: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:06:50: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:07:26: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:08:02: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:08:38: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:08:58.05 work_queue_worker[9751] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9751
+2021/02/23 11:08:58.27 work_queue_worker[9753] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9753
+2021/02/23 11:08:58.34 work_queue_worker[9750] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9750
+2021/02/23 11:08:58.55 work_queue_worker[9752] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9752
+2021/02/23 11:09:13: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:09:33.99 work_queue_worker[9800] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9800
+2021/02/23 11:09:34.35 work_queue_worker[9799] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-9799
+2021/02/23 11:09:49: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9855
+work_queue_worker: creating workspace /tmp/worker-45159-9854
+work_queue_worker: creating workspace /tmp/worker-45159-9853
+work_queue_worker: creating workspace /tmp/worker-45159-9856
+2021/02/23 11:10:25: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9923
+work_queue_worker: creating workspace /tmp/worker-45159-9924
+2021/02/23 11:11:00: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+
+2021/02/23 11:11:28.56 work_queue_worker[9923] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:28.56 work_queue_worker[9924] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45222
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45224
+2021/02/23 11:11:36: |submitted: 6 |needed: 24 |waiting connection: 6 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      25       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-9952
+work_queue_worker: creating workspace /tmp/worker-45159-9951
+work_queue_worker: creating workspace /tmp/worker-45159-9954
+work_queue_worker: creating workspace /tmp/worker-45159-9953
+2021/02/23 11:11:37.41 work_queue_worker[9954] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:37.41 work_queue_worker[9951] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:37.46 work_queue_worker[9953] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:37.50 work_queue_worker[9952] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+work_queue_worker: using 1 cores, 515861 MB memory, 857450 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45240
+work_queue_worker: using 1 cores, 515861 MB memory, 857421 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45238
+work_queue_worker: using 1 cores, 515861 MB memory, 857427 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45236
+2021/02/23 11:11:53.45 work_queue_worker[9853] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:53.49 work_queue_worker[9855] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:53.54 work_queue_worker[9854] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:11:53.54 work_queue_worker[9856] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+work_queue_worker: using 1 cores, 515861 MB memory, 857411 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45242
+2021/02/23 11:12:12: |submitted: 10 |needed: 24 |waiting connection: 10 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      25       0        0       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-10028
+work_queue_worker: creating workspace /tmp/worker-45159-10026
+work_queue_worker: creating workspace /tmp/worker-45159-10029
+work_queue_worker: creating workspace /tmp/worker-45159-10027
+2021/02/23 11:12:13.15 work_queue_worker[10028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:13.22 work_queue_worker[10027] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:13.26 work_queue_worker[10026] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:13.27 work_queue_worker[10029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:48: |submitted: 14 |needed: 24 |waiting connection: 0 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+work_queue_worker: creating workspace /tmp/worker-45159-10076
+work_queue_worker: creating workspace /tmp/worker-45159-10078
+work_queue_worker: creating workspace /tmp/worker-45159-10075
+work_queue_worker: creating workspace /tmp/worker-45159-10077
+2021/02/23 11:12:48.41 work_queue_worker[10076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:48.42 work_queue_worker[10078] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:48.76 work_queue_worker[10075] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:12:48.77 work_queue_worker[10077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:13:23: |submitted: 18 |needed: 24 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+work_queue_worker: creating workspace /tmp/worker-45159-10125
+work_queue_worker: creating workspace /tmp/worker-45159-10126
+2021/02/23 11:13:24.42 work_queue_worker[10125] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:13:24.43 work_queue_worker[10126] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:13:59: |submitted: 20 |needed: 24 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+2021/02/23 11:14:35: |submitted: 20 |needed: 24 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+2021/02/23 11:15:10: |submitted: 20 |needed: 24 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+work_queue_worker: using 1 cores, 515861 MB memory, 835499 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45282
+2021/02/23 11:15:45: |submitted: 20 |needed: 24 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+work_queue_worker: using 1 cores, 515861 MB memory, 835499 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45278
+work_queue_worker: using 1 cores, 515861 MB memory, 835499 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45280
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45260
+2021/02/23 11:16:21: |submitted: 20 |needed: 24 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      13       0        9      14 
+
+2021/02/23 11:16:57: |submitted: 20 |needed: 24 |waiting connection: 0 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      11       4       12      20 
+
+work_queue_worker: creating workspace /tmp/worker-45159-10628
+work_queue_worker: creating workspace /tmp/worker-45159-10627
+work_queue_worker: creating workspace /tmp/worker-45159-10630
+work_queue_worker: creating workspace /tmp/worker-45159-10629
+2021/02/23 11:16:58.35 work_queue_worker[10627] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:16:58.35 work_queue_worker[10630] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:16:58.44 work_queue_worker[10628] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:16:58.45 work_queue_worker[10629] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+work_queue_worker: using 1 cores, 515861 MB memory, 795611 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45300
+work_queue_worker: using 1 cores, 515861 MB memory, 795627 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45294
+work_queue_worker: using 1 cores, 515861 MB memory, 795615 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45298
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45256
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45254
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45258
+work_queue_worker: using 1 cores, 515861 MB memory, 835503 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45276
+work_queue_worker: using 1 cores, 515861 MB memory, 795618 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45296
+work_queue_worker: using 1 cores, 515861 MB memory, 615779 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45358
+2021/02/23 11:17:33: |submitted: 24 |needed: 24 |waiting connection: 4 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      10      13       37      20 
+
+work_queue_worker: using 1 cores, 515861 MB memory, 615818 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45360
+work_queue_worker: using 1 cores, 515861 MB memory, 754853 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45312
+work_queue_worker: using 1 cores, 515861 MB memory, 615802 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45354
+work_queue_worker: using 1 cores, 515861 MB memory, 754837 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45314
+work_queue_worker: using 1 cores, 515861 MB memory, 615806 MB disk, 0 gpus
+connected to master 10.141.24.18:60221 via local address 10.141.24.89:45356
+2021/02/23 11:18:09: |submitted: 24 |needed: 24 |waiting connection: 4 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221      10      13       37      20 
+
+2021/02/23 11:18:44.29 work_queue_worker[10628] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.30 work_queue_worker[10627] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.30 work_queue_worker[10629] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.33 work_queue_worker[10630] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.54 work_queue_worker[10125] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.54 work_queue_worker[10075] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.56 work_queue_worker[10078] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.60 work_queue_worker[10126] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.69 work_queue_worker[10077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:18:44.80 work_queue_worker[10028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:44.82 work_queue_worker[10076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:45.32 work_queue_worker[10029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:45.35 work_queue_worker[9924] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:45.44 work_queue_worker[9953] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:45.46 work_queue_worker[10027] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:45.61 work_queue_worker[9952] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:46.08 work_queue_worker[9854] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:46.49 work_queue_worker[9951] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:46.84 work_queue_worker[9954] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:46.87 work_queue_worker[9855] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:47.18 work_queue_worker[9856] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:47.32 work_queue_worker[9923] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:47.56 work_queue_worker[10026] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:18:47.63 work_queue_worker[9853] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:19:20: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:19:56: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:20:31: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:20:54.32 work_queue_worker[10627] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.32 work_queue_worker[10628] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.41 work_queue_worker[10629] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.42 work_queue_worker[10630] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:20:54.55 work_queue_worker[10125] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:20:54.58 work_queue_worker[10075] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.58 work_queue_worker[10126] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.63 work_queue_worker[10077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.67 work_queue_worker[10078] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:20:54.83 work_queue_worker[10076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:54.88 work_queue_worker[10028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:20:55.30 work_queue_worker[10029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:55.30 work_queue_worker[9953] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:55.39 work_queue_worker[10027] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:55.44 work_queue_worker[9924] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:55.61 work_queue_worker[9952] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:56.17 work_queue_worker[9854] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:56.32 work_queue_worker[9951] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:56.71 work_queue_worker[9954] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:56.83 work_queue_worker[9855] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:57.09 work_queue_worker[9856] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:57.22 work_queue_worker[9923] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:57.47 work_queue_worker[10026] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:20:57.60 work_queue_worker[9853] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:21:07: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:21:43: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:22:18: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:22:54: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:23:06.20 work_queue_worker[10627] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.20 work_queue_worker[10628] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.32 work_queue_worker[10630] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.32 work_queue_worker[10629] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.45 work_queue_worker[10126] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.45 work_queue_worker[10075] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.45 work_queue_worker[10125] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.58 work_queue_worker[10078] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.58 work_queue_worker[10077] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.70 work_queue_worker[10076] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:06.98 work_queue_worker[10028] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:07.27 work_queue_worker[10029] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:07.27 work_queue_worker[9953] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:07.35 work_queue_worker[10027] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:07.35 work_queue_worker[9924] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:07.48 work_queue_worker[9952] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:08.16 work_queue_worker[9854] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:08.39 work_queue_worker[9951] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:08.72 work_queue_worker[9954] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:08.81 work_queue_worker[9855] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:09.06 work_queue_worker[9856] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:09.24 work_queue_worker[9923] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:09.54 work_queue_worker[10026] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:09.57 work_queue_worker[9853] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:23:29: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:24:05: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:24:41: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:13.51 work_queue_worker[10629] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:13.51 work_queue_worker[10628] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:13.51 work_queue_worker[10630] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:13.51 work_queue_worker[10627] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10628
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10629
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10630
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10627
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:13.76 work_queue_worker[10126] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:13.76 work_queue_worker[10125] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:13.76 work_queue_worker[10077] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:13.76 work_queue_worker[10075] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:13.76 work_queue_worker[10078] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10126
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10125
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10077
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10075
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10078
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:14.02 work_queue_worker[10076] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10076
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:14.28 work_queue_worker[10028] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10028
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:14.53 work_queue_worker[10029] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:14.53 work_queue_worker[9953] notice: stopping: could not connect after 300 seconds.
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:14.53 work_queue_worker[9924] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:14.53 work_queue_worker[10027] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10029
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9953
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9924
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10027
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:14.79 work_queue_worker[9952] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9952
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:15.43 work_queue_worker[9854] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9854
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:15.56 work_queue_worker[9951] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9951
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:15.94 work_queue_worker[9954] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9954
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:16.07 work_queue_worker[9855] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9855
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:16.32 work_queue_worker[9856] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9856
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:16.45 work_queue_worker[9923] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9923
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:25:16.84 work_queue_worker[10026] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:25:16.84 work_queue_worker[9853] notice: stopping: could not connect after 300 seconds.
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-9853
+disconnected from master 10.141.24.18:60221
+work_queue_worker: deleting workspace /tmp/worker-45159-10026
+2021/02/23 11:25:17: |submitted: 24 |needed: 10 |waiting connection: 24 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:25:47: |submitted: 0 |needed: 10 |waiting connection: 0 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35417
+work_queue_worker: creating workspace /tmp/worker-45159-35416
+work_queue_worker: creating workspace /tmp/worker-45159-35415
+work_queue_worker: creating workspace /tmp/worker-45159-35414
+2021/02/23 11:25:48.34 work_queue_worker[35417] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:25:48.35 work_queue_worker[35414] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:25:48.40 work_queue_worker[35415] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:25:48.45 work_queue_worker[35416] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:26:23: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35462
+work_queue_worker: creating workspace /tmp/worker-45159-35463
+2021/02/23 11:26:23.93 work_queue_worker[35463] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:26:23.97 work_queue_worker[35462] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:26:58: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:27:34: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:27:57.87 work_queue_worker[35414] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:27:58.00 work_queue_worker[35415] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:27:58.21 work_queue_worker[35417] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:27:58.48 work_queue_worker[35416] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:28:10: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:28:33.45 work_queue_worker[35462] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:28:33.46 work_queue_worker[35463] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:28:46: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:29:21: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:29:57: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:30:09.75 work_queue_worker[35414] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:30:09.87 work_queue_worker[35415] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:30:10.13 work_queue_worker[35417] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:30:10.39 work_queue_worker[35416] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:30:32: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:30:45.33 work_queue_worker[35463] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:30:45.33 work_queue_worker[35462] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:31:08: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:31:44: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:32:16.94 work_queue_worker[35414] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35414
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:32:17.19 work_queue_worker[35415] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35415
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:32:17.44 work_queue_worker[35417] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35417
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:32:17.70 work_queue_worker[35416] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35416
+2021/02/23 11:32:20: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:32:52.52 work_queue_worker[35462] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:32:52.52 work_queue_worker[35463] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35462
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35463
+2021/02/23 11:32:55: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35759
+work_queue_worker: creating workspace /tmp/worker-45159-35761
+work_queue_worker: creating workspace /tmp/worker-45159-35760
+work_queue_worker: creating workspace /tmp/worker-45159-35758
+2021/02/23 11:32:56.23 work_queue_worker[35760] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+2021/02/23 11:32:56.23 work_queue_worker[35761] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:32:56.57 work_queue_worker[35758] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:32:56.59 work_queue_worker[35759] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:33:31: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35807
+work_queue_worker: creating workspace /tmp/worker-45159-35806
+2021/02/23 11:33:32.01 work_queue_worker[35807] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:33:32.01 work_queue_worker[35806] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:34:07: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:34:43: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:35:06.26 work_queue_worker[35760] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:06.26 work_queue_worker[35761] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:06.55 work_queue_worker[35758] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:06.59 work_queue_worker[35759] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:18: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:35:41.97 work_queue_worker[35807] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:41.97 work_queue_worker[35806] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:35:54: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:36:29: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:37:05: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:37:18.16 work_queue_worker[35761] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:37:18.31 work_queue_worker[35760] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:37:18.47 work_queue_worker[35758] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:37:18.64 work_queue_worker[35759] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:37:41: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:37:53.54 work_queue_worker[35806] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:37:54.02 work_queue_worker[35807] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:38:16: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:38:52: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:39:25.48 work_queue_worker[35761] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35761
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:39:25.48 work_queue_worker[35760] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35760
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:39:25.73 work_queue_worker[35758] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35758
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:39:25.86 work_queue_worker[35759] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35759
+2021/02/23 11:39:28: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:40:00.81 work_queue_worker[35806] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35806
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:40:01.32 work_queue_worker[35807] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35807
+2021/02/23 11:40:03: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35883
+work_queue_worker: creating workspace /tmp/worker-45159-35886
+work_queue_worker: creating workspace /tmp/worker-45159-35884
+work_queue_worker: creating workspace /tmp/worker-45159-35885
+2021/02/23 11:40:04.09 work_queue_worker[35886] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:40:04.09 work_queue_worker[35884] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:40:04.13 work_queue_worker[35883] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:40:04.13 work_queue_worker[35885] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:40:39: |submitted: 4 |needed: 10 |waiting connection: 4 |requested: 2 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-35931
+work_queue_worker: creating workspace /tmp/worker-45159-35932
+2021/02/23 11:40:39.97 work_queue_worker[35931] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:40:40.03 work_queue_worker[35932] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:41:14: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:41:50: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:42:14.06 work_queue_worker[35884] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:42:14.06 work_queue_worker[35886] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:42:14.07 work_queue_worker[35885] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:42:14.07 work_queue_worker[35883] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:42:25: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:42:49.96 work_queue_worker[35931] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:42:50.01 work_queue_worker[35932] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:43:01: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:43:37: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:44:12: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:44:26.04 work_queue_worker[35885] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:44:26.04 work_queue_worker[35886] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:44:26.09 work_queue_worker[35884] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:44:26.10 work_queue_worker[35883] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:44:48: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:45:01.95 work_queue_worker[35931] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:45:01.95 work_queue_worker[35932] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:45:24: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+2021/02/23 11:45:59: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:46:33.25 work_queue_worker[35886] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35886
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:46:33.25 work_queue_worker[35885] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35885
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:46:33.38 work_queue_worker[35884] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:46:33.38 work_queue_worker[35883] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35884
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35883
+2021/02/23 11:46:35: |submitted: 6 |needed: 10 |waiting connection: 6 |requested: 0 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+couldn't connect to 150.135.165.68:60221: Operation timed out
+couldn't connect to 150.135.165.68:60221: Operation timed out
+2021/02/23 11:47:09.22 work_queue_worker[35932] notice: stopping: could not connect after 300 seconds.
+2021/02/23 11:47:09.22 work_queue_worker[35931] notice: stopping: could not connect after 300 seconds.
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35931
+work_queue_worker: using 1 cores, 515861 MB memory, 857713 MB disk, 0 gpus
+work_queue_worker: deleting workspace /tmp/worker-45159-35932
+2021/02/23 11:47:11: |submitted: 2 |needed: 10 |waiting connection: 2 |requested: 4 
+PROJECT            HOST                   PORT WAITING RUNNING COMPLETE WORKERS 
+run_hamr           68-165-135-150.dynami 60221       0       0      350       0 
+
+work_queue_worker: creating workspace /tmp/worker-45159-36001
+work_queue_worker: creating workspace /tmp/worker-45159-35998
+work_queue_worker: creating workspace /tmp/worker-45159-35999
+work_queue_worker: creating workspace /tmp/worker-45159-36000
+2021/02/23 11:47:11.77 work_queue_worker[36001] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:47:11.79 work_queue_worker[35998] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:47:12.28 work_queue_worker[36000] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+2021/02/23 11:47:12.28 work_queue_worker[35999] error: Did not find the master address '150.135.165.68' in the list of interfaces.
+couldn't connect to 10.141.24.18:60221: Connection refused
+couldn't connect to 10.141.28.18:60221: Connection refused
+couldn't connect to 10.141.16.18:60221: Connection refused
+Feb 23 11:47:14.606745  1184 slurmstepd   0x2b22f8606700: error: *** JOB 609155 ON r1u32n1 CANCELLED AT 2021-02-23T11:47:14 DUE TO TIME LIMIT ***

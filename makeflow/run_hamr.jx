@@ -1,0 +1,73 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+                "RESULTS_DIR": ".",
+		"SING_CONT":  "singularity run --cleanenv /xdisk/dukepauli/reetu/hamr_pipeline", # Singularity containers
+                "TOTAL_SEQ":2,  # Total number of sequences in input
+        },
+
+    "rules": [
+
+	  {
+	  "command" : template("{SING_CONT}/hisat2_2.2.0--py37he1b5a44_0.sif hisat2 -x ./hisat2/TAIR10_hisat2_index -1 ./SRR7947123_1.seg{N}.fastq -2 ./SRR7947123_2.seg{N}.fastq > {DATA_DIR}/SRR7947123.seg{N}.sam"),
+          "inputs" : ["./SRR7947123_1.seg"+N+".fastq",
+                      "./SRR7947123_2.seg"+N+".fastq",
+                      "./hisat2/TAIR10_hisat2_index.1.ht2",
+                      "./hisat2/TAIR10_hisat2_index.2.ht2",
+                      "./hisat2/TAIR10_hisat2_index.3.ht2",
+                      "./hisat2/TAIR10_hisat2_index.4.ht2",
+                      "./hisat2/TAIR10_hisat2_index.5.ht2",
+                      "./hisat2/TAIR10_hisat2_index.6.ht2",
+                      "./hisat2/TAIR10_hisat2_index.7.ht2",
+                      "./hisat2/TAIR10_hisat2_index.8.ht2"],
+          "outputs" : [DATA_DIR+"/SRR7947123.seg"+N+".sam"]
+          } for N in range (0, TOTAL_SEQ),
+
+          {
+	  "command" : "grep -P '^\@|NH:i:1$' "+DATA_DIR+"/SRR7947123.seg"+N+".sam > "+RESULTS_DIR+"/SRR7947123.seg"+N+".unique.sam",
+          "inputs" : [DATA_DIR+"/SRR7947123.seg"+N+".sam"],
+          "outputs" : [RESULTS_DIR+"/SRR7947123.seg"+N+".unique.sam"]
+          } for N in range (0, TOTAL_SEQ),
+
+         {
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -bSh {RESULTS_DIR}/SRR7947123.seg{N}.unique.sam > {RESULTS_DIR}/SRR7947123.seg{N}.unique.bam"),
+        "inputs" : [RESULTS_DIR+"/SRR7947123.seg"+N+".unique.sam"],
+        "outputs" : [RESULTS_DIR+"/SRR7947123.seg"+N+".unique.bam"]
+         } for N in range (0, TOTAL_SEQ),
+
+	{
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools sort {RESULTS_DIR}/SRR7947123.seg{N}.unique.bam > {RESULTS_DIR}/SRR7947123.seg{N}.sort.bam"),
+        "inputs" : [RESULTS_DIR+"/SRR7947123.seg"+N+".unique.bam"],
+        "outputs" : [RESULTS_DIR+"/SRR7947123.seg"+N+".sort.bam"]
+        } for N in range (0, TOTAL_SEQ),
+
+	{
+	"command" : template("{SING_CONT}/picard_2.23.8--0.sif picard AddOrReplaceReadGroups -I /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.sort.bam -O /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RG.bam -ID {N} -LB D4 -PL illumina_150pe -PU GWZHISEQ02:270:C8W2LANXX:8 -SM SRR7947123"),
+#        "outputs" : ["/xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg"+N+".RG.bam"],
+        } for N in range (0, TOTAL_SEQ),
+
+	{
+	"command" : template("{SING_CONT}/picard_2.23.8--0.sif picard ReorderSam I=/xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RG.bam O=/xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RGO.bam SD=/xdisk/dukepauli/reetu/mkflow_tests_2/TAIR10_allchr.dict"),
+#        "inputs" : ["TAIR10_allchr.dict"],
+#        "outputs" : ["/xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg"+N+".RGO.bam"],
+	} for N in range (0, TOTAL_SEQ),
+	
+	{
+	"command" : template("{SING_CONT}/samtools_1.10.sif samtools index /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RGO.bam /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RGO.bam.bai"),
+#        "inputs" : ["./samout1/SRR7947123.seg"+N+".RGO.bam"],
+#        "outputs" : ["./samout1/SRR7947123.seg{N}.RGO.bam.bai"],
+	} for N in range (0, TOTAL_SEQ),
+
+	{
+	"command" : template("{SING_CONT}/gatk3_3.5-0.sif java -jar /usr/GenomeAnalysisTK.jar -T SplitNCigarReads -R /xdisk/dukepauli/reetu/mkflow_tests_2/TAIR10_allchr.fasta -I /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.RGO.bam -o /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.resolvedalig.bam -U ALLOW_N_CIGAR_READS"),
+#        "inputs" : ["./SRR7947123.seg"+N+".RGO.bam", "./TAIR10_allchr.fasta"],
+#        "outputs" : ["./SRR7947123.seg"+N+".resolvealig.bam"],	
+	} for N in range (0, TOTAL_SEQ),
+
+	{
+        "command" : template("{SING_CONT}/hamr_xi_1.4.sif -pe -fe /xdisk/dukepauli/reetu/mkflow_tests_2/SRR7947123.seg{N}.resolvedalig.bam /xdisk/dukepauli/reetu/mkflow_tests_2/TAIR10_allchr.fasta /xdisk/dukepauli/reetu/mkflow_tests_2/models/euk_trna_mods.Rdata /xdisk/dukepauli/reetu/mkflow_tests_2/hamr_SRR7947123.seg{N} SRR7947123.seg{N} 30 10 0.01 H4 1 .05 .05"),
+#        "inputs" : ["./SRR7947123.seg"+N+".RGO.bam", "./TAIR10_allchr.fasta"],
+#        "outputs" : ["./SRR7947123.seg"+N+".resolvealig.bam"],
+        } for N in range (0, TOTAL_SEQ),
+    ]
+}
