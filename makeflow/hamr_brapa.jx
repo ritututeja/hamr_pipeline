@@ -1,0 +1,79 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+                "RESULTS_DIR": "./output",
+		"HISAT_INDEX": "/xdisk/dukepauli/reetu/brapa",
+                "SING_CONT":  "singularity run --cleanenv /xdisk/dukepauli/reetu/hamr_pipeline", # Sing containers
+        },
+	
+    "rules": [
+
+#	# fastq-dump
+#	  {
+#          "command" : template("{SING_CONT}/sra-tools_2.10.9.sif fastq-dump {X}"),
+#          "inputs" : [X],
+#	  "outputs" : [X+".fastq"]
+#          } for X in SRAs,
+	# Run Hisat2
+	  {
+          "command" : template("{SING_CONT}/hisat2_2.2.0--py37he1b5a44_0.sif hisat2 -x {HISAT_INDEX}/brapa_index/brapa /xdisk/dukepauli/reetu/brapa/{X}.fastq > /xdisk/dukepauli/reetu/brapa/{X}.sam"),
+          #"inputs" : [DATA_DIR+"/"+X+".fastq",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.1.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.2.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.3.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.4.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.5.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.6.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.7.ht2",
+                     #DATA_DIR+"/"+"hisat2/TAIR10_hisat2_index.8.ht2"],
+          "outputs" : [DATA_DIR+"/"+X+".sam"]
+          } for X in SRAs,	
+	# Get unique mapping reads 
+	  {
+          "command" : "grep -P '^\@|NH:i:1$' "+DATA_DIR+"/"+Y+".sam > "+DATA_DIR+"/"+Y+".unique.sam",
+          "inputs" : [DATA_DIR+"/"+Y+".sam"],
+          "outputs" : [DATA_DIR+"/"+Y+".unique.sam"]
+          } for Y in SRAs,
+	# Convert SAM to BAM
+	  {
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -bSh {DATA_DIR}/{Z}.unique.sam > {DATA_DIR}/{Z}.unique.bam"),
+        "inputs" : [DATA_DIR+"/"+Z+".unique.sam"],
+        "outputs" : [DATA_DIR+"/"+Z+".unique.bam"]
+          } for Z in SRAs,
+	# Convert BAM to SORTED BAM
+	{
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools sort {DATA_DIR}/{A}.unique.bam > {DATA_DIR}/{A}.sort.bam"),
+        "inputs" : [DATA_DIR+"/"+A+".unique.bam"],
+        "outputs" : [DATA_DIR+"/"+A+".sort.bam"]
+        } for A in SRAs,
+	# Add READ GROUPS with PICARD
+	{
+       "command" : template("{SING_CONT}/picard_2.23.8--0.sif picard AddOrReplaceReadGroups -I /xdisk/dukepauli/reetu/brapa/{SBAM}.sort.bam -O /xdisk/dukepauli/reetu/brapa/{SBAM}.RG.bam -ID {SBAM} -LB D4 -PL illumina_101SE -PU GWZHISEQ02:270:C8W2LANXX:8 -SM {SBAM}"),
+#        "outputs" : ["/xdisk/dukepauli/reetu/brapa/"+SBAM+".RG.bam"],
+        } for SBAM in SRAs,
+	# REORDER SAM
+	{
+       "command" : template("{SING_CONT}/picard_2.23.8--0.sif picard ReorderSam I=/xdisk/dukepauli/reetu/brapa/{RGBAM}.RG.bam O=/xdisk/dukepauli/reetu/brapa/{RGBAM}.RGO.bam SD=/xdisk/dukepauli/reetu/brapa/Brassica_rapa_1.0.dict"),
+        "inputs" : ["Brassica_rapa_1.0.dict"],
+#        "outputs" : ["/xdisk/dukepauli/reetu/brapa/"+RGBAM+".RGO.bam"],
+       } for RGBAM in SRAs,
+       # Index BAM files
+       {
+       "command" : template("{SING_CONT}/samtools_1.10.sif samtools index /xdisk/dukepauli/reetu/brapa/{RGOBAM}.RGO.bam /xdisk/dukepauli/reetu/brapa/{RGOBAM}.RGO.bam.bai"),
+##        "inputs" : ["./samout1/SRR7947123.seg"+N+".RGO.bam"],
+##        "outputs" : ["./samout1/SRR7947123.seg{N}.RGO.bam.bai"],
+       } for RGOBAM in SRAs,
+      # Resolve splice alignments
+       {
+       "command" : template("{SING_CONT}/gatk3_3.5-0.sif java -jar /usr/GenomeAnalysisTK.jar -T SplitNCigarReads -R /xdisk/dukepauli/reetu/brapa/Brassica_rapa_1.0.fasta -I /xdisk/dukepauli/reetu/brapa/{INDEXBAM}.RGO.bam -o /xdisk/dukepauli/reetu/brapa/{INDEXBAM}.resolvedalig.bam -U ALLOW_N_CIGAR_READS"),
+#        "inputs" : ["./SRR7947123.seg"+N+".RGO.bam", "./TAIR10_allchr.fasta"],
+#        "outputs" : ["./SRR7947123.seg"+N+".resolvealig.bam"],
+       } for INDEXBAM in SRAs,
+      # RUN HAMR
+     {
+     "command" : template("{SING_CONT}/hamr_xi_1.4.sif -fe /xdisk/dukepauli/reetu/brapa/{RALIGN}.resolvedalig.bam /xdisk/dukepauli/reetu/brapa/Brassica_rapa_1.0.fasta /xdisk/dukepauli/reetu/brapa/models/euk_trna_mods.Rdata /xdisk/dukepauli/reetu/brapa/hamr_{RALIGN} {RALIGN} 30 10 0.01 H4 1 .05 .05"),
+##        "inputs" : ["./SRR7947123.seg"+N+".RGO.bam", "./TAIR10_allchr.fasta"],
+##        "outputs" : ["./SRR7947123.seg"+N+".resolvealig.bam"],
+        } for RALIGN in SRAs,
+]
+}

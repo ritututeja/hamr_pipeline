@@ -1,0 +1,18 @@
+{
+        "define" : {
+                "DATA_DIR": "/xdisk/dukepauli/reetu/brapa",
+                "RESULTS_DIR": "./output",
+                "HISAT_INDEX": "/xdisk/dukepauli/reetu/brapa",
+                "SING_CONT":  "singularity run --cleanenv /xdisk/dukepauli/reetu/hamr_pipeline", # Sing containers
+        },
+
+    "rules": [
+
+        # fastq-dump
+          {
+          "command" : template("{SING_CONT}/sra-tools_2.10.9.sif fastq-dump {X}"),
+          "inputs" : [X],
+          "outputs" : [X+".fastq"]
+          } for X in SRAs,
+        ]
+}
