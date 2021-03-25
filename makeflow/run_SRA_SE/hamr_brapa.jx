@@ -1,0 +1,59 @@
+{
+        "define" : {
+		"DATA_DIR_ABS": "/xdisk/dukepauli/reetu/brapa"
+                "DATA_DIR": ".",
+                "RESULTS_DIR": "./output",
+		"HISAT_INDEX": "/xdisk/dukepauli/reetu/brapa",
+	        "HAMR_MODELS": "/xdisk/dukepauli/reetu/brapa/models/euk_trna_mods.Rdata",
+		"REFERENCE_FASTA": "/xdisk/dukepauli/reetu/brapa/Brassica_rapa_1.0.fasta",
+		"REFERENCE_DICT": "/xdisk/dukepauli/reetu/brapa/Brassica_rapa_1.0.dict",
+                "SING_CONT":  "singularity run --cleanenv /xdisk/dukepauli/reetu/hamr_pipeline", # Sing containers
+        },
+	
+    "rules": [
+
+	# Run Hisat2
+	  {
+          "command" : template("{SING_CONT}/hisat2_2.2.0--py37he1b5a44_0.sif hisat2 -x {HISAT_INDEX}/brapa_index/brapa {DATA_DIR_ABS}/{X}.fastq > {DATA_DIR_ABS}/{X}.sam"),
+          "outputs" : [DATA_DIR+"/"+X+".sam"]
+          } for X in SRAs,	
+	# Get unique mapping reads 
+	  {
+          "command" : "grep -P '^\@|NH:i:1$' "+DATA_DIR+"/"+Y+".sam > "+DATA_DIR+"/"+Y+".unique.sam",
+          "inputs" : [DATA_DIR+"/"+Y+".sam"],
+          "outputs" : [DATA_DIR+"/"+Y+".unique.sam"]
+          } for Y in SRAs,
+	# Convert SAM to BAM
+	  {
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -bSh {DATA_DIR}/{Z}.unique.sam > {DATA_DIR}/{Z}.unique.bam"),
+        "inputs" : [DATA_DIR+"/"+Z+".unique.sam"],
+        "outputs" : [DATA_DIR+"/"+Z+".unique.bam"]
+          } for Z in SRAs,
+	# Convert BAM to SORTED BAM
+	{
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools sort {DATA_DIR}/{A}.unique.bam > {DATA_DIR}/{A}.sort.bam"),
+        "inputs" : [DATA_DIR+"/"+A+".unique.bam"],
+        "outputs" : [DATA_DIR+"/"+A+".sort.bam"]
+        } for A in SRAs,
+	# Add READ GROUPS with PICARD
+	{
+       "command" : template("{SING_CONT}/picard_2.23.8--0.sif picard AddOrReplaceReadGroups -I {DATA_DIR_ABS}/{SBAM}.sort.bam -O {DATA_DIR_ABS}/{SBAM}.RG.bam -ID {SBAM} -LB D4 -PL illumina_101SE -PU GWZHISEQ02:270:C8W2LANXX:8 -SM {SBAM}"),
+        } for SBAM in SRAs,
+	# REORDER SAM
+	{
+       "command" : template("{SING_CONT}/picard_2.23.8--0.sif picard ReorderSam I={DATA_DIR_ABS}/{RGBAM}.RG.bam O={DATA_DIR_ABS}/{RGBAM}.RGO.bam SD={REFERENCE_DICT}"),
+       } for RGBAM in SRAs,
+       # Index BAM files
+       {
+       "command" : template("{SING_CONT}/samtools_1.10.sif samtools index {DATA_DIR_ABS}/{RGOBAM}.RGO.bam {DATA_DIR_ABS}/{RGOBAM}.RGO.bam.bai"),
+       } for RGOBAM in SRAs,
+      # Resolve splice alignments
+       {
+       "command" : template("{SING_CONT}/gatk3_3.5-0.sif java -jar /usr/GenomeAnalysisTK.jar -T SplitNCigarReads -R {REFERENCE_FASTA} -I {DATA_DIR_ABS}/{INDEXBAM}.RGO.bam -o {DATA_DIR_ABS}/{INDEXBAM}.resolvedalig.bam -U ALLOW_N_CIGAR_READS"),
+       } for INDEXBAM in SRAs,
+      # RUN HAMR
+     {
+     "command" : template("{SING_CONT}/hamr_xi_1.4.sif -fe {DATA_DIR_ABS}/{RALIGN}.resolvedalig.bam {REFERENCE_FASTA} {HAMR_MODELS} {DATA_DIR_ABS}/hamr_{RALIGN} {RALIGN} 30 10 0.01 H4 1 .05 .05"),
+     } for RALIGN in SRAs,
+]
+}
