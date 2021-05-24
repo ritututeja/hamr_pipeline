@@ -16,7 +16,7 @@ wget http://ccl.cse.nd.edu/software/files/cctools-7.1.12-x86_64-centos7.tar.gz
 tar -xvf cctools-7.1.12-x86_64-centos7.tar.gz
 ```
 
-Download containers from DockerHub:
+Download containers:
 
 ```
 sh pull_containers.sh
