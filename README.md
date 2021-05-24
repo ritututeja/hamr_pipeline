@@ -19,5 +19,5 @@ tar -xvf cctools-7.1.12-x86_64-centos7.tar.gz
 Download containers from DockerHub:
 
 ```
-./pull_containers.sh
+sh pull_containers.sh
 ```
