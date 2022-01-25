@@ -7,19 +7,6 @@
         },
 
     "rules": [
-              {
-          "command" : template("{SING_CONT}/tophat2_2.1.1.sif tophat2 -p 4 --read-mismatches 8 --read-edit-dist 8 --max-multihits 10 --b2-very-sensitive --transcriptome-max-hits 10 --no-coverage-search --output-dir {DATA_DIR_ABS}/{X}_fwd -G {GENOME_IND}/Athaliana_447_Araport11.gene.gff3 {GENOME_IND}/ath_bowtie2_index/tair10_bw2 {DATA_DIR_ABS}/{X}_forward_paired.fq.gz,{DATA_DIR_ABS}/{X}_forward_unpaired.fq.gz"),
-        "inputs" : [DATA_DIR+"/"+X+"_forward_paired.fq.gz",DATA_DIR+"/"+X+"_forward_unpaired.fq.gz"],
-        "outputs" : [DATA_DIR+"/"+X+"_fwd"],
- #       "category" : "mapping"
-        } for X in andrew_data,
-       # Run tophat2 reverse reads
-        {
-          "command" : template("{SING_CONT}/tophat2_2.1.1.sif tophat2 -p 4 --read-mismatches 8 --read-edit-dist 8 --max-multihits 10 --b2-very-sensitive --transcriptome-max-hits 10 --no-coverage-search --output-dir {DATA_DIR_ABS}/{X}_rev -G {GENOME_IND}/Athaliana_447_Araport11.gene.gff3 {GENOME_IND}/ath_bowtie2_index/tair10_bw2 {DATA_DIR}/{X}_reverse_paired.fq.gz"),
-        "inputs" : [DATA_DIR+"/"+X+"_reverse_paired.fq.gz"],
-        "outputs" : [DATA_DIR+"/"+X+"_rev"],
-        #"category" : "mapping"
-        } for X in andrew_data,      
       # Convert BAM to SAM
         {
         "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -h -o {DATA_DIR}/{X}_fwd.sam {DATA_DIR}/{X}_fwd/accepted_hits.bam"),

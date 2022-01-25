@@ -1,0 +1,40 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+		"DATA_DIR_ABS": "/xdisk/dukepauli/reetututeja/ath_bioprojects",
+ 		"GENOME_IND": "/xdisk/dukepauli/reetututeja/old_ericdisk_backup/genome_indexes",
+                "SING_CONT": "singularity run --cleanenv /xdisk/dukepauli/reetututeja/old_ericdisk_backup/hamr_pipeline", #Sing containers
+        },
+
+    "rules": [
+         {
+          "command" : template("{SING_CONT}/tophat2_2.1.1.sif tophat2 -p 4 --read-mismatches 8 --read-edit-dist 8 --max-multihits 10 --b2-very-sensitive --transcriptome-max-hits 10 --no-coverage-search --output-dir {DATA_DIR_ABS}/{X} -G {GENOME_IND}/Athaliana_447_Araport11.gene.gff3 {GENOME_IND}/ath_bowtie2_index/tair10_bw2 {DATA_DIR_ABS}/{X}.fq.gz"),
+        "inputs" : [DATA_DIR+"/"+X+".fq.gz"],
+        "outputs" : [DATA_DIR+"/"+X+],
+        } for X in andrew_data,
+      # Convert BAM to SAM
+        {
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -h -o {DATA_DIR}/{X}.sam {DATA_DIR}/{X}/accepted_hits.bam"),
+        "inputs" : [DATA_DIR+"/"+X+"/accepted_hits.bam"],
+        "outputs" : [DATA_DIR+"/"+X+".sam"]
+        } for X in andrew_data,
+      # grep unique reads
+        {
+        "command" : "grep -P '^\@|NH:i:1$' "+DATA_DIR+"/"+Y+".sam >"+DATA_DIR+"/"+Y+".unique.sam",
+	"inputs" : [DATA_DIR+"/"+Y+".sam"],
+        "outputs" : [DATA_DIR+"/"+Y+".unique.sam"]
+        } for Y in andrew_data,
+     # convert bam to sam
+       {
+	"command" : template("{SING_CONT}/samtools_1.10.sif samtools view -bSh {DATA_DIR}/{K}.unique.sam > {DATA_DIR}/{K}.unique.bam"),
+       "inputs" : [DATA_DIR+"/"+K+".unique.sam"],
+       "outputs" : [DATA_DIR+"/"+K+".unique.bam"] 
+       } for K in andrew_data,
+     # sort reads
+       {
+       "command" : template("{SING_CONT}/samtools_1.10.sif samtools sort {DATA_DIR}/{Z}.unique.bam > {DATA_DIR}/{Z}.sort.bam"),
+       "inputs" : [DATA_DIR+"/"+Z+".unique.bam"],
+       "outputs" : [DATA_DIR+"/"+Z+".sort.bam"]
+       } for Z in andrew_data,
+]
+}

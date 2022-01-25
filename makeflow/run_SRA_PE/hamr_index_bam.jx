@@ -1,0 +1,22 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+                "DATA_DIR_ABS": "/xdisk/dukepauli/reetututeja/ath_bioprojects",
+                "GENOME_IND": "/xdisk/dukepauli/reetututeja/old_ericdisk_backup/genome_indexes",
+                "SING_CONT": "singularity run --cleanenv /xdisk/dukepauli/reetututeja/old_ericdisk_backup/hamr_pipeline", #Sing containers
+        },
+    "categories" : {
+        "mapping" : {
+                        "resources" : {"cores": 1, "memory" : 12288, "disk" : 1024  }
+        }
+    },
+
+    "rules": [      
+      # Index BAM files
+       {
+       "command" : template("{SING_CONT}/samtools_1.10.sif samtools index {DATA_DIR}/{RGOBAM}.RGO.bam {DATA_DIR}/{RGOBAM}.RGO.bam.bai"),
+        "inputs" : [DATA_DIR+"/"+RGOBAM+".RGO.bam"],
+        "outputs" : [DATA_DIR+"/"+RGOBAM+".RGO.bam.bai"],
+       } for RGOBAM in andrew_data,
+]
+}

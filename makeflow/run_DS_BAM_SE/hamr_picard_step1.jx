@@ -1,0 +1,21 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+                "DATA_DIR_ABS": "/xdisk/dukepauli/reetututeja/ath_bioprojects",
+                "GENOME_IND": "/xdisk/dukepauli/reetututeja/old_ericdisk_backup/genome_indexes",
+                "SING_CONT": "singularity run --cleanenv /xdisk/dukepauli/reetututeja/old_ericdisk_backup/hamr_pipeline", #Sing containers
+        },
+    "categories" : {
+        "mapping" : {
+                        "resources" : {"cores": 1, "memory" : 12288, "disk" : 1024  }
+        }
+    },
+
+    "rules": [
+     {
+      "command" : template("{SING_CONT}/picard_2.23.8--0.sif picard AddOrReplaceReadGroups -I {DATA_DIR_ABS}/{SBAM}.sort.bam -O {DATA_DIR_ABS}/{SBAM}.RG.bam -ID {SBAM} -LB D4 -PL illumina_101SE -PU HWUSI-EAS1814:28:2 -SM {SBAM}"),
+#      "inputs" : [DATA_DIR+"/"+SBAM+".merged.bam"],
+#      "output" : [DATA_DIR+"/"+SBAM+".RG.bam"]
+     } for SBAM in andrew_data,
+]
+}

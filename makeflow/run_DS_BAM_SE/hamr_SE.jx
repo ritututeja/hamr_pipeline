@@ -1,0 +1,35 @@
+{
+        "define" : {
+                "DATA_DIR": ".",
+		"DATA_DIR_ABS": "/xdisk/dukepauli/reetututeja/ath_bioprojects",
+ 		"GENOME_IND": "/xdisk/dukepauli/reetututeja/old_ericdisk_backup/genome_indexes",
+                "SING_CONT": "singularity run --cleanenv /xdisk/dukepauli/reetututeja/old_ericdisk_backup/hamr_pipeline", #Sing containers
+        },
+
+    "rules": [
+      # Convert BAM to SAM
+        {
+        "command" : template("{SING_CONT}/samtools_1.10.sif samtools view -h -o {DATA_DIR}/{X}.sam {DATA_DIR}/{X}/accepted_hits.bam"),
+        "inputs" : [DATA_DIR+"/"+X+"/accepted_hits.bam"],
+        "outputs" : [DATA_DIR+"/"+X+".sam"]
+        } for X in andrew_data,
+      # grep unique reads
+        {
+        "command" : "grep -P '^\@|NH:i:1$' "+DATA_DIR+"/"+Y+".sam >"+DATA_DIR+"/"+Y+".unique.sam",
+	"inputs" : [DATA_DIR+"/"+Y+".sam"],
+        "outputs" : [DATA_DIR+"/"+Y+".unique.sam"]
+        } for Y in andrew_data,
+     # convert bam to sam
+       {
+	"command" : template("{SING_CONT}/samtools_1.10.sif samtools view -bSh {DATA_DIR}/{K}.unique.sam > {DATA_DIR}/{K}.unique.bam"),
+       "inputs" : [DATA_DIR+"/"+K+".unique.sam"],
+       "outputs" : [DATA_DIR+"/"+K+".unique.bam"] 
+       } for K in andrew_data,
+     # sort reads
+       {
+       "command" : template("{SING_CONT}/samtools_1.10.sif samtools sort {DATA_DIR}/{Z}.unique.bam > {DATA_DIR}/{Z}.sort.bam"),
+       "inputs" : [DATA_DIR+"/"+Z+".unique.bam"],
+       "outputs" : [DATA_DIR+"/"+Z+".sort.bam"]
+       } for Z in andrew_data,
+]
+}
